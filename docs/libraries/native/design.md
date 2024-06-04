@@ -1,6 +1,6 @@
 ---
 title: "TypeSpec Native Extension"
-toc_min_heading_level: 2
+toc_min_heading_level: 1
 toc_max_heading_level: 3
 ---
 
@@ -41,7 +41,7 @@ The design of the native extension of TypeSpec will follow the same principles a
 
 - @typespec/native
 
-&nbsp;&nbsp;&nbsp;&nbsp;This library is similar to @typespec/http, @typespec/rest, and @typespec/openapi3 libraries to help define a non-RESTful API.
+&nbsp;&nbsp;&nbsp;&nbsp;This library is similar to @typespec/http, @typespec/rest, and @typespec/openapi3 libraries to help define a non-RESTful API.  
 &nbsp;&nbsp;&nbsp;&nbsp;This is where native decorators are defined, such as @property, @getter, @setters and @event.  
 &nbsp;&nbsp;&nbsp;&nbsp;This extension is meant to be plugged into TypeSpec next to @typespec/http etc.
 
